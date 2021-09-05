@@ -1,0 +1,24 @@
+{
+  "name": "kdt-deploy-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotoshine/kdt-deploy-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotoshine/kdt-deploy-sample/issues"
+  },
+  "homepage": "https://github.com/rotoshine/kdt-deploy-sample#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
