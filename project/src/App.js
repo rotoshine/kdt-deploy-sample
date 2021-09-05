@@ -29,10 +29,10 @@ export default function App({ $target }) {
     $target.innerHTML = ''
     const { pathname } = window.location
 
-    if (pathname === '/') {
+    if (pathname === '/kdt-deploy-sample/') {
       postsPage.setState()
-    } else if (pathname.indexOf('/posts/') === 0) {
-      const [, , postId] = pathname.split('/')
+    } else if (pathname.indexOf('/kdt-deploy-sample/posts/') === 0) {
+      const [, , , postId] = pathname.split('/')
       postEditPage.setState({ postId })
     }
   }
