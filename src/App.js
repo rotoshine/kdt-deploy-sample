@@ -32,7 +32,7 @@ export default function App({ $target }) {
     if (pathname === '/kdt-deploy-sample/') {
       postsPage.setState()
     } else if (pathname.indexOf('/kdt-deploy-sample/posts/') === 0) {
-      const [, , postId] = pathname.split('/')
+      const [, , , postId] = pathname.split('/')
       postEditPage.setState({ postId })
     }
   }
